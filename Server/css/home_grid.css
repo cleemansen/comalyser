@@ -1,0 +1,14 @@
+div#home td.positive_change {
+	background-color: rgb(170, 191, 59);
+	color: white;
+}
+
+div#home td.negative_change {
+	background-color: #CC0000;
+	color: white;
+	
+}
+
+div#home td.x-grid-cell-kicker_change_absolute {
+	border-right-width: 1px;
+}

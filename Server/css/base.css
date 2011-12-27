@@ -1,0 +1,53 @@
+html {font-family: sans-serif}
+.error {color:white; background-color:red;}
+.marker {color: white; background-color: black; text-align: center;}
+.hint {color: white; background-color: #999999}
+#session {color: green; font-family: monospace; font-size: 8pt; padding-bottom: 5px; display: block;}
+#session-info {float: left; display: block;}
+ul {background-color: gray; margin: 8px 0 10px; padding: 10px 0;}
+ul.navi li {list-style: none; display: inline; margin: 0 10px; background-color: blue;}
+ul.navi a {color: white; font-family: monospace; text-decoration: none; padding: 3px 5px;}
+ul.navi li#navi_word {float: right; color: #EEEEEE; background-color: transparent; font-size: 19pt; margin-top: -17px;}
+ul#bottom {clear: both;}
+h1.marker {margin-top: 3px; margin-bottom: 4px;}
+p {margin: 3px 0px; padding: 2px 0;}
+table {}
+/*a {text-decoration: none; color: white; background-color: #0099FF}
+th {background-color: red; padding: 5px 5px; color: white}
+td {padding: 5px 10px; background-color: black; color: white}
+tr.myTeam:hover td {background-color: white; color: black; cursor: pointer; }*/
+.right {text-align: right;}
+.date {text-align: center;}
+div#team{}
+div#myTeam{float: left}
+div#balance_div{float: right}
+div#footer{background-color: orange; color: white; font-size: 10pt; text-align: right; margin-top: 15px;}
+
+/* shared styles for the ActionColumn icons */
+.x-action-col-cell img {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+}
+/* custom icon for the "buy" ActionColumn icon */
+.x-action-col-cell img.fit {
+	background-image: url(accept.gif);
+}
+/* custom icon for the "alert" ActionColumn icon */
+.x-action-col-cell img.not_fit {
+	background-image: url(error.gif);
+}
+/* check column*/
+.x-grid-checkheader {
+    height: 14px;
+    background-image: url('unchecked.gif');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.x-grid-checkheader-checked {
+    background-image: url('checked.gif');
+}
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
